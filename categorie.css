@@ -1,0 +1,23 @@
+.spaceCategorie{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 30%;
+    justify-content: space-between;
+}
+
+form{
+    position : relative;
+    width: 20%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0.1px 0.6px black;
+    color: #4499de;
+    align-items: center;
+}
