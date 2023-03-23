@@ -1,9 +1,13 @@
+
 body {
     margin: 0;
     font-size: 20px;
     background-color: rgba(245, 241, 241, 0.694);
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
+    scroll-padding-top: 7em;
+    scroll-behavior: smooth;
 }
 
 form{
@@ -20,6 +24,7 @@ form{
     box-shadow: 5px 1px 1px black;
     color: #4499de;
     align-items: center;
+    
 }
 
 .main{
@@ -53,5 +58,6 @@ form{
 }
 
 .btnSubmit:hover{
-    background-color: #3676ab;
+    box-shadow: 3px 5px 15px rgb(0, 0, 0);
+	transform: translateY(-5px);
 }

@@ -1,0 +1,147 @@
+.mainContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+
+/* Stylizing the statatistic containers */
+
+.statContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    justify-content: space-evenly;
+}
+
+.totalCarStat, .dailyTripStat, .clientStat, .dailyKilometerStat{
+    width: 22%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 3px 0.5px #5c59592d;
+}
+
+.totalCarStat{
+    background: linear-gradient(to top,#fd1e01b9, #ff6f00b3 );
+}
+
+.dailyTripStat{
+    background: linear-gradient(to top,#86d186, #a7e5a7b8 );
+}
+
+.clientStat{
+    background: linear-gradient(to top, #bd76dd, #d6a4eecd );
+}
+
+.dailyKilometerStat{
+    background: linear-gradient(to top,#00a2ff, #94ceefcb );
+}
+
+.informationStat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title{
+    font-size: 15px;
+}
+
+.content{
+    font-size: 1.5em;
+}
+
+.iconImage{
+    width: 25px;
+    height: 25px;
+}
+
+/* Stylizing the graph containers */
+
+.graphContainer{
+    margin-top: 3%;
+    padding: 0 15px;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.milesStatistics, .carStatistics{
+    padding: 10px;
+    width: 47%;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px 0.5px #5c59592d;
+}
+
+/* Stylizing the cars container */
+
+.carsContainer{
+    margin-top: 2%;
+    padding: 0 15px;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carDisplay{
+    padding: 15px;
+    width: 28%;
+    background-color: #d4db7769;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerDisplay{
+    align-items: center;
+}
+
+.headerDisplay .title{
+    margin-left: 15px;
+}
+
+.bordyDisplay{
+    margin-top: 2px;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageCar{
+    width: 80%;
+    height: 100%;
+}
+
+.carNameContainer{
+    margin-top: 4px;
+}
+
+.carNameContainer span{
+    font-weight: 600;
+}
+
+.ContainerSpec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caracteristics .iconSpec, .caracteristics .spec{
+    margin-right: 4px;
+}
+
+.spec{
+    font-size: 15px;
+}
+
+.iconSpec{
+    width: 12px;
+    height: 12px;
+}
